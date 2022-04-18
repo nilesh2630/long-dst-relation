@@ -1,0 +1,85 @@
+
+body {
+    height: 100%;
+    margin: 0;
+    background-image: url("shopping-image/lovecalculatorbackground.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    height: 100%;
+}
+
+
+
+
+.nav-li{
+    display: inline;
+    margin-right: 30px;
+    font-size: 100%;
+
+}
+ul{text-align: right;
+   margin: 0px;
+   padding-top: 20px;
+
+}
+
+.nav-link{
+    color: #fff;
+text-decoration: none;
+}
+.nav-link:hover{
+ color:#886F6F;
+}
+
+.nav{
+  background-color:black ;
+height: 50px;
+}
+.menu-img{
+ float: left;
+    height: 50px;
+}
+
+
+
+
+
+#calculator-title{
+    font-size: 50px;
+     font-family: 'Kaushan Script', cursive;
+     text-shadow: 4px 2px 0px white;
+}
+
+.btn{
+    width: 20%;
+    height: 35px;
+    font-family: 'Kaushan Script';
+    font-size: 16px;
+    text-shadow: 2px 2px #E5E3C9;
+    border-radius: 10px;
+    background-image: linear-gradient(112deg, #30AADD, white);
+}
+
+.btn:hover{
+    background-image: linear-gradient(360deg, #30AADD, white);
+    /* animation: pulsate 1s ease-in-out; */
+}
+
+/* @keyframes pulsate{
+0%{
+    box-shadow: 0 0 25px #5ddcff,0 0 50px #4e00c2;
+    
+}
+
+} */
+
+.formdiv-table{
+    background-image: linear-gradient(357deg, gray, transparent);
+}
+
+.formdiv-table-text{
+  
+   
+    text-shadow: 2px 1px 0px #fff;
+}

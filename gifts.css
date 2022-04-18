@@ -1,0 +1,341 @@
+body{
+    margin: 0px;
+}
+
+.first-box{
+    width: 100%;
+}
+
+.uppervideo{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    object-position: center;
+   box-shadow:  -18px 2px 10px 14px;
+}
+
+.video-container{
+    position: relative;
+}
+
+.text-layout{
+   position: absolute;
+ left: 40%;
+    bottom: 40%;
+    background-color: #3A3845;
+    opacity: 0.6;
+  
+}
+.nav-li{
+    display: inline;
+    margin-right: 30px;
+    font-size: 100%;
+
+}
+ul{text-align: right;
+   margin: 0px;
+   padding-top: 20px;
+
+}
+
+.nav-link{
+    color: #fff;
+text-decoration: none;
+}
+.nav-link:hover{
+ color:#886F6F;
+}
+
+.nav{
+  background-color:black ;
+height: 50px;
+}
+.menu-img{
+ float: left;
+    height: 50px;
+}
+
+.second-box{
+    background-image: url("quotes/couple-gift1.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    background-size: 100% 100%;
+height: 500px;
+box-shadow: 10px 2px 20px 5px black;
+    /* position: relative;     this can also done for centing text in middle */
+   
+    
+
+    
+}
+.second-box-title{
+    filter: brightness(120%);
+    text-align: center;
+    padding-top: 10%;
+   /* position: absolute;
+   top: 30%;              
+   left: 20%; */  /* this 3 can also used for centring text but i am using padding */
+   color: #fff;
+   font-size: 140%;
+
+
+    text-shadow:   5px 5px black;
+}
+
+.s-box-text{
+    background-color: #3A3845;
+    opacity: 0.6;
+    width: 60%;
+    margin-left: 20%;
+}
+
+.shopping-box{
+    box-shadow: 0px 10px 18px 7px black;
+    padding-bottom: 10%;
+}
+
+.shopping-row{
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+    width: 90%;
+    margin: auto;
+    height: 450px;
+    margin-top: 5%;
+}
+.column-gifts{
+   box-shadow:  -3px 1px 7px 0px black;
+width: 100%;
+height: 450px;
+}
+
+.column-gifts:hover{
+    width: 105%;
+    height: 500px;
+    transition: width 2s, height 2s;
+    transform: scale(1.15);
+    background-image: linear-gradient(to right,#8FBDD3,#FAFFAF);
+}
+
+.gift-image{
+    width: 80%; height: 250px;
+    padding-left:40px;
+    padding-top: 40px;
+   
+}
+.text-link{
+    text-decoration: none;
+    font-size: 20px;
+    margin-top: 20px;
+    color: black;line-height: 1;
+    width: 85%;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+}
+.gift-gif{
+    float: left;
+    width: 25%;
+    
+}
+
+#gift-title{
+    font-family: 'Rubik Wet Paint', cursive;
+    
+    color:black;
+    text-shadow: -8px 3px 0px #FFB72B;
+    font-size: 80px;
+    padding-top: 150px;
+    margin-top: 0px;
+}
+
+.shopping-introduction-title{
+    padding-bottom: 5%;
+     /* background-image: url("shopping-image/texture.jpg"); */
+}
+
+
+.gift-title-para{
+    width: 80%;
+     margin: auto;
+    text-align: center;
+    
+    line-height: 1;
+    color:#32502E;
+    text-shadow: 0px 3px 8px black;
+    font-size: 40px;
+    font-family: 'Tangerine', cursive;
+}
+
+.bookvid{
+    width: 40%;
+     position: absolute;
+     margin-left: 10%;
+  }
+
+  .bookshop{
+position: relative;
+     left: 60%;
+     width: 30%;
+     text-align: center;
+  }
+ 
+  
+  .vidbookcontainer{
+      width: 100%;
+      margin-top: 150px;
+      background-image: linear-gradient(to right,#9900F0,#F0A500);;
+      padding-top: 5%;
+      padding-bottom: 5%;
+  }
+
+  .fourth-container {
+    text-align: center;
+    background-color: #86c6f4;
+    padding: 80px 0px;
+    box-shadow: -20px -4px 20px 6px black;;
+  }
+  .social-link {
+    text-decoration: none;
+    margin-right: 20px;
+    color: #fff;
+  }
+  .social-link:hover {
+    color: #886f6f;
+  }
+
+
+
+
+
+
+  /* 
+  ------------------------------------------------------------------------------------------
+                              quotes css
+-----------------------------------------------------------------------------------------
+  
+  */
+
+
+  #image-coverbox{
+      background-image: url("quotes/quotecover.jpg");
+      background-position: center;
+      background-size: cover;
+      width: 100%;
+      background-size: 100% 100%;
+      height: 500px;
+  }
+
+  #quotestitle{
+    /* margin-left: 20%; */
+    margin-top:5% ;
+    width: 60%;
+    position: absolute;
+    padding-bottom: 20%;
+  }
+
+
+  .table1{
+      margin: auto;
+      width: 80%;
+      height: 50px;
+      /* background-color: ; */
+     background-image: linear-gradient(to right, #95D1CC, pink );
+  }
+
+  .quotes{
+      padding-left: 5%;
+      width: 90%;
+     height: 100%;
+     border-radius: 15px;
+     }
+  
+  .quotes:hover{
+      width: 100%;
+      height: 105%;
+      transition: width 2s,height 2s;
+  }
+
+  .videotextgrid{
+    /* display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%; */
+    display: grid;
+    grid-template-columns:35% 60%;
+  }
+
+.videotextgrid{
+    margin-top: 10%;
+    background-image: linear-gradient(to right ,#99FFCD,white);
+}
+
+  #quotesvideo{
+      width: 100%;
+      height: 500px;
+  }
+
+  .small-div-quote{
+      width:90%;
+      height: 90px;
+      margin: auto;
+      /* background-color: #886F6F;S */
+      background-image: linear-gradient(to right,#ee9ca7,#ffdde1);
+      margin-top: 4%;
+      border-radius: 15px;
+      font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      
+  }
+
+  .text-quo{
+      padding: 5%;
+      text-align: center;
+      margin: 0;
+  }
+
+  .quotext{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    width: 30%;
+    padding-left: 5%;
+  }
+
+  .small-divfor-quote{
+      width: 65%;
+      border: 2px solid #E5E3C9;
+      margin-top: 5%;
+      background-color: #DFDFDE;
+      font-family: 'Lavishly Yours';
+
+      margin-left: 3%;
+
+  }
+
+
+  .pic{
+      
+    width: 100%;
+height: 300px;
+   
+      margin: 0;
+  }
+  
+  .pic:hover{
+  
+    transform: scale(1.15);
+  }
+  
+
+
+
+
+
+
+  /* 
+  -------------------------------------------------------------------------------------------
+                      calculator css
+------------------------------------------------------------------------------------------------
+  
+  */
+
+
+  

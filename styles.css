@@ -1,0 +1,269 @@
+
+li {
+  display: inline;
+  font-size: 100%;
+}
+.ok {
+  margin-left: 30px;
+}
+h2 {
+  color: #E32249;
+  text-shadow: 3px 3px 6px #3a3845;
+  font-family: 'Lavishly Yours', cursive;
+  font-size: 60px;
+  text-decoration: underline;
+}
+/* .nav{
+    display: flex;
+}
+*/
+.nav-item {
+  margin-right: 30px;
+}
+
+.upperlogo {
+  height: 400px;
+  object-fit: cover;
+  object-position: center;
+  width: 100%;
+  filter: brightness(100%);
+  /* opacity: 0.8; */
+  box-shadow: 0px 10px 18px 7px white;
+}
+
+/* .video-container { position:relative; } */
+.video-container {
+  position: relative;
+  z-index: 0;
+}
+.text-overlay {
+  position: absolute;
+  bottom: 40%;
+
+  left: 40%;
+
+  z-index: 1;
+}
+
+body {
+  margin: 0px;
+}
+
+.menu {
+  /* background-image: url("navback.jpg"); */
+  background-color: black;
+  height: 50px;
+ 
+  /* float: inline-end;*/
+  /* width: 100%;  */
+}
+.navul {
+  margin: 0px;
+  padding-top: 20px;
+  text-align: right;
+
+  font-size: 100%;
+}
+.navdiv {
+  margin-left: 300px;
+}
+.menuimg {
+  height: 50px;
+  float: left;
+  /* margin-left: 20px; */
+}
+
+.first-container {
+  width: 100%;
+}
+.nav-link {
+  text-decoration: none;
+  color: #fff;
+}
+.nav-link:hover {
+  color: #886f6f;
+}
+
+.iconmenu {
+  color: #fff;
+}
+.second-container {
+  background-image: url("shopping-image/pinkstone.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  height: 500px;
+  display: grid;
+  grid-template-columns: auto auto;
+
+  /* font-family: 'Playball', cursive;
+      font-family: 'Satisfy', cursive; */
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 40px;
+  color: black;
+  text-shadow: 3px 3px #ec4646;
+  /* text-align: center; */
+  line-height: 2;
+animation-name: golu;
+animation-duration: 2s;
+animation-iteration-count: 2;
+  
+}
+
+@keyframes golu{
+  from{
+    font-size:10px;
+  }
+
+  to{
+    font-size: 40px;
+  }
+
+}
+
+
+.covertitle{
+  width:60%;  margin-left: 30px; text-align: center;
+
+
+}
+
+
+
+.title {
+  margin: 0px;
+}
+
+.iphone {
+  width: 30%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 150px;
+  top: 600px;
+}
+
+/* mediaquery */
+@media (max-width: 997px) {
+  .iphone {
+    width: 30%;
+    transform: rotate(0deg);
+    position: static;
+  }
+
+  .second-container {
+    text-align: center;
+    height: 930px;
+    font-size: 30px;
+
+  }
+
+  .grid-item1 {
+    grid-column: 2 / span 2;
+  }
+  .grid-item2 {
+    grid-column: 2 / span 2;
+  }
+}
+
+/* ----------mediaquery end----------- */
+
+.third-container {
+  position: relative;
+  z-index: 1;
+  background-image: linear-gradient(to right, #fbd6d2, #f190b7);
+  /* background-image: url("lovebg.jpg");
+          background-repeat: no-repeat;
+          background-size: cover;
+          box-shadow:  #3A3845; */
+
+          box-shadow: 0px 10px 18px 7px black;
+}
+
+.third-containerpart {
+  width: 70%;
+  margin: auto;
+  padding: 40px;
+}
+.third-c-img {
+  width: 15%;
+  border-radius: 50%;
+  background-color: #28ffbf;
+  margin-top: 40px;
+}
+.third-c-img:hover {
+  background-color: #caf7e3;
+}
+p {
+  /* color: #fff; */
+  color: #32502E;
+  font-size: 23px;
+  line-height: 2;
+  font-family: 'Berkshire Swash', cursive;
+ 
+   text-shadow: 2px 2px 6px #E93B81;
+}
+
+.smallbox {
+  background-image: linear-gradient(to right, #fff, #f6c065);
+  padding: 30px;
+  box-shadow: 10px 10px;
+  width: 80%;
+  height: 50px;
+  font-size: 20px;
+  /* transition: width 4s, height 4s; */
+ 
+}
+.smallbox:hover{
+  font-size: 25px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  width: 100%;
+  height: 90px;
+ 
+  transition: width 4s, height 4s;
+}
+/* .smallbox:hover{
+      width:110%;
+      height: 200px;
+
+    } */
+
+hr {
+  margin: 50px auto 50px auto;
+  border-style: none;
+  border-top-style: dotted;
+  border-color: yellow;
+  border-width: 10px;
+  width: 15%;
+}
+
+.fourth-container {
+  text-align: center;
+  background-color: #86c6f4;
+  padding: 80px 0px;
+}
+.social-link {
+  text-decoration: none;
+  margin-right: 20px;
+  color: #fff;
+}
+.social-link:hover {
+  color: #886f6f;
+}
+
+.pic{
+      
+  width: 100%;
+height: 100%;
+ 
+    margin: 0;
+}
+
+.pic:hover{
+  opacity: 0.6;
+
+}
+
+td{
+    padding: 0;
+}
