@@ -28,7 +28,7 @@
     else if(!isNaN(lname)){ 
      alert("Numbers are not allowed");
     }
- if (name.length >=3){
+ else if(name.length >=3){
 
       
     
